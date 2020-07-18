@@ -1,0 +1,60 @@
+/*
+Author: Alex Parys
+Date: 2/18/2017
+*/
+
+#side300 {
+    width: 166;
+    height: auto;
+    max-width: 100%;
+    border: none;
+}
+
+#front300 {
+    width:165;
+    height:auto;
+    max-width: 100%;
+    border: none;
+}
+
+#rack300 {
+    width:164;
+    height: auto;
+    max-width: 100%;
+    border: none;
+}
+
+#series200 {
+    width: 299;
+    height: auto;
+    max-width: 100%;
+    border: none;
+}
+
+#leseries10 {
+    width:202;
+    height: auto;
+    max-width: 100%;
+    border: none;
+}
+
+#leseries07 {
+    width: 221;
+    height: auto;
+    max-width: 100%;
+    border:none;
+}
+
+#leseries11 {
+    width: 170;
+    height: auto;
+    max-width: 100%;
+    border: none;
+}
+
+.parts-img {
+    width: 400;
+    height: auto;
+    max-width: 100%;
+    border: none;
+}

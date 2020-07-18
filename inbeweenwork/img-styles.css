@@ -1,0 +1,35 @@
+/*
+Author: Alex Parys
+Date: 2/18/2017
+*/
+
+.parts-img {
+    width: 400px;
+    height: auto;
+    max-width: 100%;
+    border: none;
+}
+
+div.span_1_of_3 img {
+	width: 60px;
+	height: auto;
+	max-width: 100%;
+	border: none;
+}
+
+main div.center-img form input[type=image] {
+	width: 120px;
+	height: auto;
+	max-width: 100%;
+	border: none;
+}
+
+#paypal-header-view-cart {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 107px;
+	height: auto;
+	max-width: 100%;
+	border: none;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <!--
+      Unit: MidTerm
+      Author: Alex Parys 
+      Date: 2/28/17
+      Exercise: MidTerm
+   -->
+    <title>Rescue Dog</title>
+	<meta charset="utf-8">
+  </head>
+    <body>
+		<form action="process_dog_rescue.php" method="post">
+			<label for="fname">First Name: </label><input type="text" name="fname" id="fname" placeholder="First Name" required><br>
+			<label for="lname">Last Name: </label><input type="text" name="lname" id="lname" placeholder="Last Name" required><br>
+			<label for="email">Email: </label><input type="text" name="email" id="email" placeholder="Email" required><br>
+			<label for="dog">Dog interested in adopting?</label>
+			<select name="dog" id="dog">
+				<option value="Abby">Abby</option>
+				<option value="Mari">Mari</option>
+				<option value="Josh">Josh</option>
+				<option value="Brad">Brad</option>
+				<option value="Bryce">Bryce</option>
+				<option value="Brook">Brook</option>
+			</select><br>
+			<input type="submit" id="submit" value="Submit" > <input type="reset" value="Clear">
+		</form>
+        
+    </body>
+
+</html>

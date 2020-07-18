@@ -1,0 +1,185 @@
+/*
+Author: Alex Parys
+Date: 2/10/2017
+*/
+
+* {
+    box-sizing: border-box;
+	word-wrap: break-word;
+}
+/* Backword-Support */
+header, section, footer, aside, nav, main, article, figure {
+    display: block;
+}
+
+body {
+    background-image: url(images/bg.jpg);
+    background-color: #ffffff;
+    color: #800000;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a:link {
+    color: #800000;
+}
+
+a:visited {
+    color: #800000;
+}
+
+a:active {
+    color: #800000;
+}
+
+h1 {
+	font-family: 'Droid Sans', sans-serif;
+}
+
+header h1 {
+    color: #800000;
+    text-align: center;
+    text-decoration: underline;
+}
+main h1 {
+    color: #800000;
+    text-align: center;
+}
+h2 {
+    color: #800000;
+    text-align: center;
+	font-family: 'Droid Sans', sans-serif;
+}
+
+h3 {
+    color: #800000;
+    text-align: center;
+	font-family: 'Droid Sans', sans-serif;
+}
+
+p {
+	font-weight: bold;
+    color: #800000;
+    text-align: center;
+}
+/*main img {
+    display: block;
+    margin: 0 auto;
+}
+*/
+
+nav {
+    display: block;
+    width: 200px;
+    max-width: 100%;
+    float: left;
+   /* border: 5px solid green; */
+	font-family: 'Droid Sans', sans-serif;
+}
+
+nav ul {
+    font-family: "Arial";
+    color: #800000;
+}
+
+main {
+  /*  border: 5px solid red; */
+    margin-left: 200px;
+    max-width: 100%;
+}
+
+footer {
+    clear: both;
+}
+
+div.center-img {
+    text-align:center;
+	
+}
+
+
+table {
+	margin: auto;
+}
+
+
+table p {
+	text-align: left;
+}
+
+.footer-company {
+	float: left;
+	margin-left: 200px;
+    max-width: 100%;
+}
+
+
+/*  http://www.responsivegridsystem.com/  */
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom: 1; /* For IE 6/7 */ }
+
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 66.13%; }
+.span_1_of_3 { width: 32.26%; }
+
+.desktop {
+	visibility: visible;
+	white-space: nowrap;
+}
+.mobile {
+	visibility: hidden;
+	white-space: nowrap;
+}
+a[href^="tel:"]:before {
+    display: block;
+    margin-right: 0.5em;
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+	
+    nav {
+        float: none;
+        max-width: 100%;
+        width: auto;
+    }
+    main {
+        max-width: 100%;
+        width: auto;
+        margin-left: auto;
+    }
+	.footer-company {
+	float: none;
+	margin-left: 0px;
+    max-width: 100%;
+}
+.desktop {
+	visibility: hidden;
+	white-space: nowrap;
+}	
+.mobile {
+	visibility: visible;
+	white-space: nowrap;
+}
+}

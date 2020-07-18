@@ -1,0 +1,89 @@
+/*
+Author: Alex Parys
+Date: 2/10/2017
+*/
+
+* {
+    box-sizing: border-box;
+}
+/* Backword-Support */
+header, section, footer, aside, nav, main, article, figure {
+    display: block;
+}
+
+body {
+    background-image: url(images/bg.jpg);
+    background-color: #ffffff;
+    color: #663300;
+    font-family: trebuchet ms,arial,helvetica;
+}
+
+a:link {
+    color: #990066;
+}
+
+a:visited {
+    color: #CC6633;
+}
+
+a:active {
+    color: #FFCC00;
+}
+
+header h1 {
+    color:#800000;
+    text-align: center;
+    text-decoration: underline;
+}
+main h1 {
+    color:#800000;
+    text-align: center;
+}
+h2 {
+    color: #800000;
+    text-align: center;
+}
+
+h3 {
+    color: #800000;
+    text-align: center;
+}
+input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    font-family: "Arial Black";
+    color: #FF0000;
+    text-align: center;
+}
+/*main img {
+    display: block;
+    margin: 0 auto;
+}
+*/
+nav {
+    width: 200px;
+    float: left;
+    border: 5px solid green;
+}
+
+nav ul {
+    font-family: "Arial";
+    color: #800000;
+}
+
+main {
+    border: 5px solid red;
+    margin-left: 205px;
+}
+
+footer {
+    clear: both;
+}
+
+div.center-img {
+    text-align:center;
+}
